@@ -1,5 +1,5 @@
 # Advanced Web Development
-For this Johns Hopkins Center for Talented Youth course (Advanced Web Development), I was instructed to develop mock website for a juice company. This course is the Advanced Web Development Course. The project uses HTML, CSS, and JavaScript. There are 6 main pages on this website. The website is built with a tropical theme.
+For this Johns Hopkins Center for Talented Youth course (Advanced Web Development), I was instructed to develop mock website for a juice company. The project uses HTML, CSS, and JavaScript. There are 6 main pages on this website. The website is built with a tropical theme.
 
 The "home page" has a multi-column layout with a side bar. The main content area containing the multi-column layout displays new and important information for vistors, like the purpose of the store and updates about new locations. The sidebar contains 3 special drinks. The user can click on these drinks to learn more about them, such as pricing and ingredients.
 

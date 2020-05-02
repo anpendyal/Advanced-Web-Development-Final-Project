@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<title>The Jumpin' Juice Company-Home Page</title>
+		<link href="styles.css" type="text/css" rel="stylesheet"/>
+		​<link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet'>
+		​<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+	</head>
+
+	<body>
+
+		<header>
+			<a href="index.html"><img src="media/juice_logo.png" height="150px" width="150px"/></a>
+			<h1>The Jumpin' Juice Company</h1>
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="contact.html">Contact Us</a>
+                                <a href="locations.html">Locations</a>
+                                <a href="signup.html">Mailing List Signup</a>
+                                <a href="faqs.html">Frequently Asked Questions</a>
+                                <a href="how_to.html">How To</a>
+
+			</nav>
+			<br>
+		</header>
+		
+		<br>
+		<br>
+		<br>
+
+		<fieldset>
+			<legend><h3>You have signed up for our mailing list!</h3></legend>
+		<section>
+			<div id="center_elements">
+				<p>Now that you have signed up for our mailing list, print out this page and bring to any of our stores for a free drink!</p>
+
+
+				<h4>Date of Mailing List Signup:</h4>
+				<p id="datetime"></p>
+			</div> 
+
+			<script>
+				var dt = new Date();
+				document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+			</script>
+				
+			<img src="media/tickets.jpg" alt="A free juice coupon" id="coupon"/>
+			<br>
+			<br>
+		</section>
+		</fieldset>
+
+		<hr>
+
+		<footer>
+			<small><p>Copyright &copy; 2020 The Jumpin' Juice Company</p></small>
+		</footer>
+
+	</body>
+
+
+</html>
+
